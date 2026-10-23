@@ -177,7 +177,8 @@ overload them on a single day. Moving a task, handing it over, or adding time of
 
 ## Author
 
-Made by **Raihan Kaskandar** ([@RaihanKaskandar](https://github.com/RaihanKaskandar)).
+Designed and directed by **Raihan Kaskandar** ([@RaihanKaskandar](https://github.com/RaihanKaskandar)). The code was
+written with Claude, an AI coding assistant.
 
 ## License
 
