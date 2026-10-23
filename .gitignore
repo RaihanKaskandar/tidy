@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Your data. The SQLite database holds the household's people and schedule,
+# so it must never be committed.
+data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local tooling
+.claude/

@@ -1,0 +1,15 @@
+services:
+  tidy:
+    image: tidy:latest
+    build: .
+    ports:
+      - '3001:3001'
+    environment:
+      PORT: 3001
+      DB_PATH: /data/tidy.db
+    volumes:
+      - tidy-data:/data
+    restart: unless-stopped
+
+volumes:
+  tidy-data:

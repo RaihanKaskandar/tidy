@@ -1,0 +1,15 @@
+{
+  "name": "Tidy",
+  "short_name": "Tidy",
+  "description": "Shared household cleaning schedule",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f5f8",
+  "theme_color": "#f5f5f8",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
